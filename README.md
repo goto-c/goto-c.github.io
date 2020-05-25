@@ -2,8 +2,8 @@
 
 My Profile 
 
-/Education
-/Work Experience
-/Interests
-/Publication & Works
-/Skills
+/Education  
+/Work Experience  
+/Interests  
+/Publication & Works  
+/Skills  
