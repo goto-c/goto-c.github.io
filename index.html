@@ -1,176 +1,115 @@
 <!DOCTYPE html>
 <html>
     
-<head>
-    
-    <meta charset="UTF-8">
-    <title>Profile</title>
-    <style>
+  <head>
+    <meta charset="utf-8">
+    <title>Chihiro Goto</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  
+  <body>
+      
+    <!-- header -->
+    <div class="header">
+      <div class="header-logo">... Now Under Construction ...</div>
+      <div class="header-list">
+        <ul>
+          <li>RESUMÉ</li>
+          <li>PUBLICATIONS & WORKS</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
         
-        body{margin:10%}
-        h1{padding:15px;
-            text-align:left;
-            font-size:300%;
-        }
-        h2{color:white;
-            padding:10px;
-            text-indent:15px;
-            background-color:gray;
-            font-size:20px;
-            border-bottom:solid 2px gray;
-        }
-        ul{color: black;
-            margin:40px;
-        }
+      <!-- name & greeting -->
+      <div class="copy-container">
+          
+          <div class="name-and-greeting">
+              <h1>PORTFOLIO</h1>
+              <h2>Welcome to my Home Page.</h2>
+              <p>I am <strong>Chihiro Goto</strong>, a graduate student of <strong>computer science</strong>, in the University of Tokyo.</p>
+              <p>In this page, you can see my activities and resumé.</p>
+              
+          </div>
+          <div>
+              <img src="pic/selfimg.png" class="self">
+          </div>
+
+      </div>
+      
+      <!-- PUBLICATIONS & WORKS -->
+      <div class="contents">
+          <h3 class="section-title">ACTIVITIES</h3>
+          
+          <div class="contents-item">
+            <a href="https://github.com/goto-c/OpenGL">
+                <img src="pic/OpenGL.png"></a>
+            <p>OpenGL</p>
+          </div>
+          
+          <div class="contents-item">
+            <a href="https://github.com/goto-c/optimization">
+                <img src="pic/optimization.png" width="240px">
+            </a>
+            <p>Optimization</p>
+          </div>
+          
+          <div class="contents-item">
+            <img src="pic/comingsoon.png" width="240px">
+            <p>...</p>
+          </div>
+          
+          <div class="contents-item">
+            <img src="pic/comingsoon.png" width="240px">
+            <p>...</p>
+          </div>
+          
+          <div class="contents-item">
+            <img src="pic/comingsoon.png" width="240px">
+            <p>...</p>
+          </div>
+        </div>
+      
+      <!-- RESUMÉ & self picture -->
+      <div class="resume">
+        <h3 class="section-title">RESUMÉ</h3>
         
-        .thesis_pic{text-align:right;
-            margin-right:50px;
-        }
-    
-        .phys_pic{text-align:right;
-            margin-right:50px;
-            margin-bottom:20px;
-        }
-        .quote{
-            font-size:70%;
-            margin-left:10px;
-        }
-    #pic{text-align:right;}
-    
-    </style>
-    
-</head>
-
-
-
-
-
-
-
-
-
-<body>
-    
-    
-    
-    <!-- 名前 -->
-    <h1>Chihiro Goto</h1>
-    <p></p>
-    
-    
-    
-    
-    
-    
-    <!-- 学歴 -->
-    <h2>Education</h2>
-    <ul>
-        <li><strong><a href="http://www.ap.t.u-tokyo.ac.jp">Department of Applied Physics</strong>, School of Engineering</a>, The University of Tokyo (2018. 4 ~)<br>
-            <p>Prof. Iwasa's laboratory (2019. 4 ~)</p>
-        </li>
-    <p></p>
-    </ul>
-    
-    
-    
-    
-    
-    <!-- 職歴 -->
-    <h2>Work Experience</h2>
-    <ul>
-        <li><strong>Research Assistant</strong> (2020. 4 ~)
-            <br><br>
-            <strong>CREST IGARASHI</strong>, The University of Tokyo
-            <br>
-            Research on the intersection of Human Conputer Interaction and Machine Learning
-        </li>
-    <p></p>
-    </ul>
-    
-    
-    
-    
-    
-    <!-- 興味 -->
-    <h2>Interest</h2>
-    <ul>
-        <li><strong>Physics Modeling and Simulation</strong>
-            <br>
-            On the basis of my background in physics, I'm interested in Physics Modeling and Simulation. In particular, visualization of the moves and behaviors of objects limited by the laws of nature.</li>
-        <br>
-        <li><strong>Computer Graphics</strong>
-        <br>
-            Interested in the techniques of beautiful Computer Graphics that are used for games and films, I would like to combine Arts with the Physics Engineering.</li>
-        <br>
-        <li><strong>Machine Learning</strong>
-        <br>
-            Working as a student researcher in Prof. Igarashi's laboratory from this April, I've got interested in <u>Image Processing</u> using Machine Learning technique. I expect that this technology is very helpful for the graphics and artistic fields as well.</li>
-    <p></p>
-    </ul>
-    
-    
-
-    
-    
-    
-    
-    
-    <!-- 論文と作品 -->
-    <h2>Publication & works</h2>
-    <ul>
+        <div class="contents-item">
+          <a href="resumé.html">
+              <img src="pic/resume.png" width="200px" class="resume-pic">
+          </a>
+          <p>↑ Jump to my resumé</p>
+        </div>
         
-        <li><p>"<a href="https://drive.google.com/file/d/1OCzETL85C73TnfLE9qpRf5Djlgtqp0PA/view?usp=sharing">3回対称ファンデルワールス結晶における非線形ホール効果</a>"</p>
-            <p>( <strong>Bachelor thesis</strong>, Department of Applied Physics )</p>
-            
-            <strong>Nonlinear Hall Effect</strong> in 2D superconductive materials.
-            <div class="thesis_pic">
-            <img src="pic/thesis.png" alt="pic1" width="20%" height="20%"></div>
-        </li>
-        
-        
-        
-        <li><p>"<a href="https://drive.google.com/file/d/1KUjZTZ5qXXgTkGbgijxRQVcjdg9d-0H2/view?usp=sharing">グラフェン/GeSヘテロ接合界面における電子状態のモデル解析</a>"</p>
-            <p>( with Assoc. Prof. Morimoto )</p>
-            <p><strong>Theoretical analysis and simulation</strong> with numerical calculation, <br>and poster session.</p>
-            <div class="phys_pic">
-            <img src="src/band.png" alt="pic1" width="25%" height="25%"><img src="src/berry.png" alt="pic2" width="15%" height="15%"></div>
-        </li>
-        
-        <li><p>"<a href="https://drive.google.com/file/d/1K65qZrtuECH_WZ9IEkoUGxJOqrsknCCl/view?usp=sharing">Magic-angle二層グラフェンにおける非従来型超伝導</a>"</p>
-            <p>Thesis introduction.</p>
-            <div class="quote">
-            <p>Yuan Gao, <i>et al.</i>,Nature <b>556</b>,80 (2018) & Yuan Gao, <i>et al.</i>,Nature <b>556</b>,43 (2018)</p></div>
-        
-    <p></p>
-    </ul>
-    
+      </div>
+    </div>
 
+      <!--
+      <div class="contact-form">
+        <h3 class="section-title">メッセージ</h3>
+        <p>メールアドレス（必須）</p>
+        <input>
+        
+        <p>送信内容（必須）</p>
+        <textarea></textarea>
+        
+        <p>※必須項目は必ずご入力ください</p>
+        <input class="contact-submit" type="submit" value="送信">
+      </div>
+      -->
+      
+    </div>
 
-    
-    <!-- スキル -->
-    <h2>Skills</h2>
-    <ul>
-        <li>Python / PyTorch</li>
-        <li>C / C++</li>
-        <li>HTML / CSS</li>
-        <li>CAD</li>
-        <li>Mathematica</li>
-    <p></p>
-    </ul>
-    
-    
-    
-    
-    
-    <!-- 連絡先 -->
-    <h2>Contacts</h2>
-    <ul>
-        <li>E-mail : <a href="mailto:goto-chihiro922@g.ecc.u-tokyo.ac.jp">goto-chihiro922[@]g.ecc.u-tokyo.ac.jp</a></li>
-        <li>GitHub : <a href="https://github.com/goto-c">@goto-c</a></li>
-    <p></p>
-    </ul>
-    
-    
-    
-</body>
+    <div class="footer">
+      <div class="footer-logo"></div>
+      <div class="footer-list">
+        <ul>
+          <li>*************************</li>
+          <li>Last update 21/02/2021</li>
+          <li>*************************</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
